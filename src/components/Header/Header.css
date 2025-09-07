@@ -1,0 +1,133 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .Header-container {
+        background-color: #C4C4C4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 59.58px 98.09px 53.02px;
+    }
+
+    .Rectangle {
+        display: flex;
+        gap: 50px;
+    }
+
+    .Rectangle-header {
+        width: 25px;
+        height: 25px;
+    }
+
+    .fake-input {
+         background-color: #ffffff;
+        width: 814.45px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .fundo_Green_Land {
+        height: 80vh;
+        width: 100%;
+    }
+
+    .section-Green-Land {
+        text-align: center;
+
+    }
+
+    .section-Green-Land p {
+        width: 100%;
+        position: absolute;
+        padding: 21.48px 0px 15.93px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 100px;
+        background-color: rgba(196, 196, 196, 0.5);
+
+    }
+
+    .nav-header {
+        position: absolute;
+        display: flex;
+        gap: 40px;
+        top: 35%;
+        left: 25%;
+    }
+
+    .nav-header ul {
+        display: flex;
+        gap: 40px;
+    }
+
+    .nav-header li {
+        list-style: none;
+    
+    }
+
+    .nav-header a {
+        font-weight: 200;
+        color: #ffffff;
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+    .header-icon{
+        display: flex;
+        gap: 25px;
+    }
+
+    .icon-header{
+        height: 25px;
+        width: 25px;
+    }
+
+    .Green-Land {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 25%;
+        top: 50%;
+        font-family: 'Chelsea Market', cursive;
+        color: #ffffff;
+        font-size: 50px;
+    }
+
+
+    .logo{
+        width: 150.69px;
+        height: 150.57px;
+    }
+
+    
+    .planeta-plantas {
+        width: 200px;
+    }
+
+    .planeta-plantas p:nth-child(1) {
+        position: absolute;
+        top: 70%;
+        left: 2%;
+        background-color: transparent;
+        font-weight: 100;
+        font-size: 70px;
+    }
+
+    .planeta-plantas p:nth-child(2) {
+        position: absolute;
+        top: 82%;
+        left: 2%;
+        background-color: transparent;
+        font-weight: 100;
+        font-size: 30px;
+    }
