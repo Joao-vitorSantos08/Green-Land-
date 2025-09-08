@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-produtos {
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px;
+}
+
+.Card-produto {
+    text-align: center;
+    width: 280px;
+    height: 460px;
+    background-color: #dcdada;
+}
+
+.Card-produto h2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.Card-produto p {
+    width: 250px;
+    font-size: 12px;
+    margin: 0 auto;
+    color: #7d7878;
+    font-weight: bold;
+}
+
+.img-produtos {
+    width: 220px;
+    height: 320px;
+}
+
+.card-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.card-btn span {
+    font-weight: bold;
+}
+
+.card-btn button {
+    padding: 6px;
+    color: #FFFDFD;
+    background-color: #4A9C80;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-btn img {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    padding: 4px;
+    border-radius: 10px;
+}
