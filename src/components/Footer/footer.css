@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5F0ED;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-Green-Land{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.footer-Green-Land img{
+    width: 40px;
+}
+
+.footer-Green-Land h4{
+      font-family: 'Chelsea Market', cursive;
+      color: #4A9C80;
+      font-size: 20px;
+}
+
+.contato{
+    text-align: start;
+    font-weight: bold;
+}
+
+.contato li{
+    list-style: none;
+}
+
+.nav-footer{
+    text-align: start;
+
+}
+
+.nav-footer ul{
+    list-style: none;
+}
+
+.nav-footer a {
+    color: #000;
+    font-size: 16px;
+}
+
