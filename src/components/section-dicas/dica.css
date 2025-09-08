@@ -1,0 +1,66 @@
+.section-dica {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+
+
+.btn-dica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.btn-ideal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 60px;
+    gap: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #4A9C80;
+    cursor: pointer;
+}
+
+.btn-ideal img {
+    width: 15px;
+}
+
+.btn-popular {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 19px;
+    border: none;
+    background-color: transparent;
+
+}
+
+.btn-popular img {
+    width: 15px;
+    cursor: pointer;
+}
+
+.dica-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.dicas-img img {
+    width: 454px;
+}
+
+.dicas-img p {
+    font-weight: 300px;
+    width: 280px;
+}
