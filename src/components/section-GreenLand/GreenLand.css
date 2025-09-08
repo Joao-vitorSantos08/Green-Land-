@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-greenLand {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.GreenLand-en{
+    background-color: #E5F0ED;
+    display: flex;
+    width: 260px;
+    padding: 10px;
+    border-radius: 7px 8px 0px;
+    align-items: center;
+    position: relative;
+    left: 75%;
+    gap: 10px;
+
+}
+
+.GreenLand-en img{
+    width: 30px;
+}
+
+
+.greenLand-container {
+    display: flex;
+    background-color: #E5F0ED;
+}
+
+.greenLand-container img {
+    width: 400px;
+     margin: 0 auto;
+
+}
