@@ -5,6 +5,7 @@ import Information from './components/Section-information/information'
 import Produtos from './components/Section-produtos/produtos'
 import Dica from './components/section-dicas/dica'
 import GreenLand from './components/section-GreenLand/GreenLand'
+import Social from './components/section-social/social'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,5 +14,6 @@ createRoot(document.getElementById('root')).render(
     <Produtos/>
     <Dica/>
     <GreenLand/>
+    <Social/>
   </StrictMode>,
 )

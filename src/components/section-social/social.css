@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-social {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.section-social h3 {
+        margin-bottom: 20px;
+}
+
+.icon-sicial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.icon-sicial img{
+    width: 55px;
+    cursor: pointer;
+}
+
+.icon-intagram{
+    background-color: rgb(7, 1, 28);   
+    padding: 10px;
+    border-radius: 60px;
+
+}
+
+.icon-intagram img{
+    width: 35px;
+}
