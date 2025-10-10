@@ -8,10 +8,6 @@
         font-family: 'Montserrat', sans-serif;
     }
 
-    body{
-          overflow-x: hidden;
-    }
-
     .Header-container {
         background-color: #C4C4C4;
         display: flex;
@@ -32,7 +28,7 @@
     }
 
     .fake-input {
-         background-color: #ffffff;
+        background-color: #ffffff;
         width: 814.45px;
         height: 30px;
         border: none;
@@ -64,74 +60,34 @@
         position: absolute;
         display: flex;
         gap: 40px;
-        top: 35%;
-        left: 25%;
+        top: 25%;
+        left: 30%;
+
     }
 
     .nav-header ul {
         display: flex;
         gap: 40px;
+
     }
 
     .nav-header li {
         list-style: none;
-    
     }
 
     .nav-header a {
         font-weight: 200;
         color: #ffffff;
-        font-size: 25px;
+        font-size: 35px;
         text-decoration: none;
     }
 
-    .header-icon{
+    .header-icon {
         display: flex;
         gap: 25px;
     }
 
-    .icon-header{
-        height: 25px;
-        width: 25px;
-    }
-
-    .Green-Land {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        left: 25%;
-        top: 50%;
-        font-family: 'Chelsea Market', cursive;
-        color: #ffffff;
-        font-size: 50px;
-    }
-
-
-    .logo{
-        width: 150.69px;
-        height: 150.57px;
-    }
-
-    
-    .planeta-plantas {
-        width: 200px;
-    }
-
-    .planeta-plantas p:nth-child(1) {
-        position: absolute;
-        top: 70%;
-        left: 2%;
-        background-color: transparent;
-        font-weight: 100;
-        font-size: 70px;
-    }
-
-    .planeta-plantas p:nth-child(2) {
-        position: absolute;
-        top: 82%;
-        left: 2%;
-        background-color: transparent;
-        font-weight: 100;
-        font-size: 30px;
+    .icon-header {
+        height: 30px;
+        width: 30px;
     }

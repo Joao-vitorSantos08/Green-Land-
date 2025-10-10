@@ -7,10 +7,12 @@ import Dica from './components/section-dicas/dica'
 import GreenLand from './components/section-GreenLand/GreenLand'
 import Social from './components/section-social/social'
 import Footer from './components/Footer/footer'
+import Div_green_land from './components/div-Green-Land/div-green-land'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header/>
+    <Div_green_land/>
     <Information/>
     <Produtos/>
     <Dica/>

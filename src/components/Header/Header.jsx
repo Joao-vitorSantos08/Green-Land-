@@ -1,7 +1,6 @@
 import './Header.css'
 import Rectangle from '../../assets/image/Rectangle.png'
 import fundo_Green_Land from '../../assets/image/fundo-Green-Land.png'
-import logo from '../../../public/logo.png'
 import lupa from '../../assets/image/lupa.png'
 import icon_boneco from '../../assets/image/icon-pessoa.png'
 import icon_carrinho from '../../assets/image/icon-carrinho.png'
@@ -46,14 +45,7 @@ const Header = () => {
                     </div>
                     
                 </nav>
-                <div className='Green-Land'>
-                    <img className='logo' src={logo} alt="logo" />
-                    <h1>Green Land</h1>
-                </div>
-                <div className='planeta-plantas'>
-                    <p>O planeta das plantas</p>
-                    <p>Da nossa terra para sua casa </p>
-                </div>
+               
             </section>
         </header>
     )
