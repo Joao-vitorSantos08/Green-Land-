@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 60px;
+    padding: 15px 80px;
     gap: 15px;
     border: none;
     border-radius: 5px;
@@ -57,7 +57,8 @@
 
 
 .dicas-img img {
-    width: 454px;
+    width: 600px;
+    height: 350px;
 }
 
 .dicas-img p {
