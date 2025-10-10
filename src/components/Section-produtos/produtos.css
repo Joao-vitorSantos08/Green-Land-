@@ -7,16 +7,19 @@
 .section-produtos {
     font-family: 'Montserrat', sans-serif;
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    justify-content: space-around;
-    gap: 30px;
-    padding: 20px;
+    grid-template-columns: repeat(3, 380px);
+    gap: 200px; 
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 50px 0px;
+
 }
 
 .Card-produto {
     text-align: center;
-    width: 280px;
-    height: 460px;
+    width: 380px;
+    height: 470px;
+    margin: 0 auto;
     background-color: #dcdada;
 }
 
@@ -35,7 +38,7 @@
 }
 
 .img-produtos {
-    width: 220px;
+    width: 320px;
     height: 320px;
 }
 
