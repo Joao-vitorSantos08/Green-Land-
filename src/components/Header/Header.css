@@ -8,6 +8,10 @@
         font-family: 'Montserrat', sans-serif;
     }
 
+    body{
+          overflow-x: hidden;
+    }
+
     .Header-container {
         background-color: #C4C4C4;
         display: flex;
